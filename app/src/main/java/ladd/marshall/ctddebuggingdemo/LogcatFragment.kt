@@ -4,10 +4,10 @@ package ladd.marshall.ctddebuggingdemo
 import android.graphics.Color
 import android.os.Bundle
 import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.fragment_logcat.*
 
 /**
@@ -81,6 +81,11 @@ class LogcatFragment : Fragment() {
 //            this.javaClass.name,
 //            "THEY PUSHED THE BUTTON $numberOfPushes TIMES NOW!!!"
 //        )
+
+        // Uncomment to demo conditional breakpoint
+//        for (i in 0..200) {
+//            Log.v(this.javaClass.name, "Currently on $i in the loop.")
+//        }
 
         // update the text with the new value
         updateUI()
