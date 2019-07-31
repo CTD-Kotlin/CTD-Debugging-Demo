@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CTD Debugging Demo</string>
+    <string name="num_of_pushes"># of Pushes</string>
+    <string name="don_t_push_me">Don\'t Push me!!!</string>
 </resources>
